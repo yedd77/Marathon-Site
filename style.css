@@ -199,8 +199,13 @@
 
 /*container 2*/
 
+.container-2 {
+    background-color: #2FD291;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
 .container-2:after {
-    margin-top: 50px;
     content: "";
     display: table;
     clear: both;
@@ -208,17 +213,24 @@
 
 .container-child {
     margin: auto;
-    padding: 10%;
+    padding-top: 18px;
+    padding: 5%;
+    padding-bottom: 18px;
     float: left;
     width: 33.33%;
 }
 
 .container-child h1 {
-    font-size: 30px;
+    font-size: 28px;
     font-family: 'Prompt', sans-serif;
+    align-items: center;
 }
 
 .container-child h3 {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
+}
+
+.middle {
+    background-color: #4be3a6;
 }
