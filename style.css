@@ -242,6 +242,43 @@
     background: #141F26;
 }
 
-.bottomSvg {
-    background: #fff;
+.darkContainer {
+    background-color: #141F26;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+.darkContainer b {
+    color: #71CFEB;
+    margin-top: 20px;
+}
+
+.date {
+    background-color: #EDF2F7;
+}
+
+.date h3 {
+    color: #141F26;
+    text-align: center;
+}
+
+.schedule {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.schedule td {
+    text-align: left;
+    padding-left: 18px;
+    padding: 10px;
+}
+
+.time h3 {
+    text-align: center;
 }
