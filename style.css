@@ -325,7 +325,7 @@ body {
     border-color: transparent;
     background-color: #71CFEB;
     margin-top: 8px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .rightCont form {
@@ -356,6 +356,26 @@ body {
     font-size: 16px;
 }
 
+.rightCont .submit {
+    margin-top: 50px;
+    width: 90%;
+    height: 35px;
+    background-color: #71CFEB;
+    border: 1px solid #71CFEB;
+    margin-top: 25px;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 50px;
+}
+
+.rightCont .submit:hover {
+    background-color: #71cfeb28;
+    border: 1px solid #71CFEB;
+    color: #71CFEB;
+    ;
+}
+
 .extraOpt a {
     font-size: 14px;
     float: right;
@@ -363,7 +383,7 @@ body {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    color: #71CFEB;
+    color: #141F26;
 }
 
 .leftCont {
@@ -376,20 +396,26 @@ body {
     background-color: #55bfdf;
 }
 
-.leftCont h2 {
+.leftCont img {
+    width: 55%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.leftCont h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
 }
 
 .leftCont p {
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     opacity: 80%;
     color: #fff;
 }
 
-.leftCont a {
+.button {
     display: block;
     text-align: center;
     text-decoration: none;
@@ -405,4 +431,9 @@ body {
     border-radius: 50px;
     border: 1px solid transparent;
     font-size: 16px;
+}
+
+.container-5 {
+    height: 100vh;
+    background: #71CFEB;
 }
