@@ -103,7 +103,7 @@ body {
 /*content counter*/
 
 .content_counter {
-    margin: 50px;
+    margin: 120px;
 }
 
 .content_counter h1 {
@@ -285,4 +285,14 @@ body {
 
 .time h3 {
     text-align: center;
+}
+
+.container-4 {
+    width: 100%;
+}
+
+.cont-child {
+    margin: auto;
+    float: left;
+    width: 50%;
 }
