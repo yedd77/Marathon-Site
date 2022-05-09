@@ -325,7 +325,7 @@ body {
     border-color: transparent;
     background-color: #71CFEB;
     margin-top: 8px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .rightCont form {
@@ -518,4 +518,20 @@ body {
     background-color: #71cfeb28;
     border: 1px solid #71CFEB;
     color: #71CFEB;
+}
+
+.newLeftCont {
+    width: 60%;
+    position: relative;
+    float: left;
+}
+
+.newRightCont {
+    width: 40%;
+    position: relative;
+    float: left;
+}
+
+.newRightCont .leftCont {
+    padding: 13%;
 }
