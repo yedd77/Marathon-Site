@@ -541,6 +541,15 @@ body {
     text-align: left;
 }
 
+.container-6 tr td a:visited , a:link{
+    color: #000;
+    font-weight: 500;
+}
+
+.container-6 tr td a:active{
+    color: #55bfdf;
+}
+
 .container-6 .bot-table{
     text-align: center;
     font-size: 14px;

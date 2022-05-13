@@ -47,6 +47,7 @@
             $notempty = mysqli_num_rows($result);
             //start looping
             while($row = mysqli_fetch_assoc($result)){
+                $id = $row["user_id"];
                 $name = $row["name"];
                 $ic = $row["num_ic"];
                 $phone = $row["phone_num"];
@@ -60,7 +61,7 @@
                         <td><?php echo $phone;?></td>
                         <td><?php echo $email;?></td>
                         <td><?php echo $emerg;?></td>
-                        <td>Update</td>
+                        <td><a href="update.php?user_id=<?php echo $id;?>">Update</a></td>
                         <td>Delete</td>
                     </tr>
                     <?php
