@@ -15,23 +15,24 @@
             <div class="leftCont">
                 <a href="index.html"><img src="Image/logo-white.png"></a>
                 <h1>New Here?</h1>
-                <p>Sign up and start your race with us now</p>
-                <a class="button" href="new-acc.html">Create Account</a>
+                <p>Register for the marathon and<br> start your race with us now</p>
+                <a class="button" href="register.html">Register</a>
             </div>
         </div>
         <div class="cont-child">
             <div class="rightCont">
-                <h1>Sign In and Start Running</h1>
+                <h1>Update your details here</h1>
                 <hr>
-                <form>
-                    <label class="label" for="name">Username</label>
-                    <input type="text" placeholder="username">
-                    <label class="label" for="password">Password</label>
-                    <input type="password" placeholder="password">
+                <p>Sign in with your details you registered with us before to update your current registration</p>
+                <form action="signin-engine.php">
+                    <label class="label" for="IC_num">IC Number</label>
+                    <input type="text" placeholder="IC number" name="IC_num">
+
+                    <label class="label" for="email">Email</label>
+                    <input type="text" placeholder="email" name="email">
+
                     <input type="submit" class="submit" value="Sign In">
-                    <div class="extraOpt">
-                        <a href="forgot-pass.html">Forget Password</a>
-                    </div>
+                    
                 </form>
             </div>
         </div>

@@ -1,21 +1,23 @@
 <?php
 include 'conn/conn.php';
 
-$username = $_REQUEST["username"];
-$phone_num = $_REQUEST["phone_num"];
-$email = $_REQUEST["email"];
-$pass = $_REQUEST["password"];
+//retrieve data and set it into variable
+$name = $_POST["name"];
+$IC_num = $_POST["IC_num"];
+$phone_num = $_POST["phone"];
+$email = $_POST["email"];
+$emerg_no = $_POST["EmergNum"];
 
-//secure password using hash
-$secure_pass = password_hash($pass, PASSWORD_BCRYPT);
+//insert into db
+$sql = "INSERT INTO registration 
+(`name` , `num_ic` , `phone_num` , `email` , `emerg_num`)
+VALUES ('$name' , '$IC_num' , '$phone_num' , '$email' , '$emerg_no')";
 
-$sql = "INSERT INTO account ('username' , 'phone_num' , 'email' , 'password') 
-VALUES('$username' , '$email' , '$phone_num' , '$secure_pass') ";
-
-if($conn->query($sql) === TRUE){
-    ?>
+//check if if the data is a member of db
+if ($conn->query($sql) === TRUE) {
+    ?> 
     <script>
-        alert('Your account have been created successfully')
+        alert('Your registration have been accepted')
         window.location = 'index.html'
     </script>
     <?php

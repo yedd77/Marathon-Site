@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>KLMarathon - Register</title>
+</head>
+
+<body>
+    
+    <div class="container-4">
+        <div class="cont-child">
+            <div class="rightCont">
+                <h1>Registration Form</h1>
+                <hr>
+                <form action="insert-engine.php" method="POST">
+                    <label class="label" for="name">Name</label>
+                    <input type="text" placeholder="name" name="name">
+
+                    <label class="label" for="IC_num">IC Number</label>
+                    <input type="text" placeholder="IC number" name="IC_num">
+
+                    <label class="label" for="phone">Phone Number</label>
+                    <input type="tel" placeholder="X(XXX)-XXXX-XXXX" name="phone">
+
+                    <label class="label" for="email">Email</label>
+                    <input type="email" placeholder="email" name="email">
+
+                    <label class="label" for="EmergNum">Emergency Contact Number</label>
+                    <input type="text" placeholder="Emergency Contact Number" name="EmergNum" >
+
+                    <input type="submit" class="submit" value="Sign In">
+                </form>
+            </div>
+        </div>
+        <div class="cont-child">
+            <div class="leftCont">
+                <a href="index.html"><img src="Image/logo-white.png"></a>
+                <h1>Already register?</h1>
+                <p>View or update your details here</p>
+                <a class="button" href="signin.html">Update</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
