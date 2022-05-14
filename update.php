@@ -12,7 +12,7 @@ $id = $_REQUEST["user_id"];
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Image/icon.ico" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <title>KLMarathon - Update Details</title>
 </head>
 

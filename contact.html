@@ -13,24 +13,29 @@
         <div class="cont-child">
             <div class="leftCont">
                 <a href="index.html"><img src="Image/logo-white.png"></a>
-                <h1>New Here?</h1>
+                <h1>KLMarathon 2022</h1>
                 <p>Register for the marathon and<br> start your race with us now</p>
                 <a class="button" href="register.html">Register</a>
             </div>
         </div>
         <div class="cont-child">
             <div class="rightCont">
-                <h1>Update your details here</h1>
+                <h1>Contact Us Now!!</h1>
                 <hr>
-                <p>Sign in with your details you registered with us before to update your current registration</p>
-                <form action="signin-engine.php">
-                    <label class="label" for="IC_num">IC Number</label>
-                    <input type="text" placeholder="IC number" name="IC_num" required>
+                <p>Have any question regarding our event? fill out form below and send it to us.</p>
+                <form action="contact-engine.php" method="POST">
+                    <label class="label" for="name">Full Name</label>
+                    <input type="text" placeholder="full name" name="name" required>
 
                     <label class="label" for="email">Email</label>
                     <input type="text" placeholder="email" name="email" required>
 
-                    <input type="submit" class="submit" value="Sign In" required>
+                    <label class="label" for="subject">Subject</label>
+                    <input type="text" placeholder="subject" name="subject" required>
+
+                    <label class="label" for="message">Message</label>
+                    <textarea type="text" placeholder="message" name="message" required></textarea>
+                    <input type="submit" class="submit" value="Send" required>
                 </form>
             </div>
         </div>

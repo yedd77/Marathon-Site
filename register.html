@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" href="Image/icon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <title>KLMarathon - Register</title>
 </head>
 
@@ -18,21 +19,21 @@
                 <hr>
                 <form action="insert-engine.php" method="POST">
                     <label class="label" for="name">Name</label>
-                    <input type="text" placeholder="name" name="name">
+                    <input type="text" placeholder="name" name="name" required>
 
                     <label class="label" for="IC_num">IC Number</label>
-                    <input type="text" placeholder="IC number" name="IC_num">
+                    <input type="text" placeholder="IC number" name="IC_num" required>
 
                     <label class="label" for="phone">Phone Number</label>
-                    <input type="tel" placeholder="X(XXX)-XXXX-XXXX" name="phone">
+                    <input type="tel" placeholder="X(XXX)-XXXX-XXXX" name="phone" required>
 
                     <label class="label" for="email">Email</label>
-                    <input type="email" placeholder="email" name="email">
+                    <input type="email" placeholder="email" name="email" required>
 
                     <label class="label" for="EmergNum">Emergency Contact Number</label>
-                    <input type="text" placeholder="Emergency Contact Number" name="EmergNum" >
+                    <input type="text" placeholder="Emergency Contact Number" name="EmergNum" required>
 
-                    <input type="submit" class="submit" value="Sign In">
+                    <input type="submit" class="submit" value="Register">
                 </form>
             </div>
         </div>

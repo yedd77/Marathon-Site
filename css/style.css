@@ -41,11 +41,10 @@ body {
     
 }
 
-.nav_links a {
-
+ .nav_links li a {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -358,7 +357,7 @@ body {
     font-weight: 300;
 }
 
-.rightCont input {
+.rightCont input, textarea {
     display: block;
     width: 100%;
     padding: 7px 2px;
@@ -375,22 +374,9 @@ body {
     font-size: 16px;
 }
 
-.rightCont .addressInput {
-    display: block;
-    width: 100%;
-    height: 50px;
-    padding: 7px 2px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid gray;
-    background: rgba(0, 0, 0, 0.05);
-    color: #000;
-    font-size: 16px;
-    border-radius: 50px;
-    border: 1px solid transparent;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 16px;
+.rightCont textarea{
+    border-radius: 10px;
+    height: 100px;
 }
 
 .rightCont .submit {
@@ -410,16 +396,6 @@ body {
     background-color: #71cfeb28;
     border: 1px solid #71CFEB;
     color: #71CFEB;
-}
-
-.extraOpt a {
-    font-size: 14px;
-    float: right;
-    margin-right: 45px;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    color: #141F26;
 }
 
 .leftCont {
@@ -474,8 +450,8 @@ body {
 }
 
 .container-6 img{
-    margin-top: 24px;
     width: 20%;
+    margin-top: 24px;
 }
 
 .container-6 .search th {
@@ -518,6 +494,8 @@ body {
     border-collapse: collapse;
     overflow: hidden;
     cursor: context-menu;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .container-6 th{
@@ -531,7 +509,7 @@ body {
 
 .container-6 td{
     background-color: #fff;
-    color: #000;
+    color: #000; 
     font-family: 'Poppins' , sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -541,33 +519,14 @@ body {
     text-align: left;
 }
 
-.container-6 tr td a:visited , a:link{
-    color: #000;
-    font-weight: 500;
-}
-
-.container-6 tr td a:active{
-    color: #55bfdf;
-}
-
 .container-6 .bot-table{
     text-align: center;
     font-size: 14px;
     border-bottom: unset;
 }
 
-.newLeftCont {
-    width: 60%;
-    position: relative;
-    float: left;
+.link-top a{
+    text-decoration: none;
+    color: #EDF2F7;
 }
 
-.newRightCont {
-    width: 40%;
-    position: relative;
-    float: left;
-}
-
-.newRightCont .leftCont {
-    padding: 13%;
-}
